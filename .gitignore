@@ -1,0 +1,16 @@
+# Segredos — NUNCA versionar
+.env
+!.env.example
+
+# Cache local do ggshield (scanner de segredos)
+.cache_ggshield
+
+# Dados locais caso STORAGE_DIR aponte para dentro do repo
+storage/
+volumes/
+data/
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/
